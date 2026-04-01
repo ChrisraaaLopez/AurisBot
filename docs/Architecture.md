@@ -49,6 +49,7 @@ AurisBot/
 │       ├── aurisbot_banner.svg
 │       ├── Componentes_C4_Nvl2.md
 │       └── Secuencia_Comandos.md
+├── .env
 ├── .env.example
 ├── .gitignore
 ├── LICENSE

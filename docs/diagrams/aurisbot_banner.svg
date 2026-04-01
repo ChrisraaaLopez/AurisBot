@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0014"/>
+      <stop offset="50%" style="stop-color:#1a0030"/>
+      <stop offset="100%" style="stop-color:#0d0014"/>
+    </linearGradient>
+    <linearGradient id="textgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c084fc"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+
+  <!-- Music notes background -->
+  <text font-family="serif" font-size="40" fill="#a855f7" opacity="0.08" x="30" y="60">♪</text>
+  <text font-family="serif" font-size="28" fill="#c084fc" opacity="0.07" x="80" y="160">♫</text>
+  <text font-family="serif" font-size="50" fill="#7c3aed" opacity="0.06" x="10" y="140">♬</text>
+  <text font-family="serif" font-size="22" fill="#a855f7" opacity="0.09" x="120" y="40">♩</text>
+  <text font-family="serif" font-size="45" fill="#a855f7" opacity="0.07" x="750" y="70">♪</text>
+  <text font-family="serif" font-size="30" fill="#c084fc" opacity="0.06" x="820" y="160">♫</text>
+  <text font-family="serif" font-size="55" fill="#7c3aed" opacity="0.05" x="840" y="130">♬</text>
+  <text font-family="serif" font-size="20" fill="#a855f7" opacity="0.08" x="700" y="40">♩</text>
+  <text font-family="serif" font-size="35" fill="#c084fc" opacity="0.05" x="160" y="185">♪</text>
+  <text font-family="serif" font-size="25" fill="#a855f7" opacity="0.06" x="680" y="190">♫</text>
+  <text font-family="serif" font-size="18" fill="#7c3aed" opacity="0.08" x="200" y="25">♬</text>
+  <text font-family="serif" font-size="18" fill="#7c3aed" opacity="0.07" x="660" y="25">♩</text>
+
+  <line x1="0" y1="100" x2="900" y2="100" stroke="#a855f7" stroke-width="0.3" opacity="0.1"/>
+  <line x1="450" y1="0" x2="450" y2="200" stroke="#a855f7" stroke-width="0.3" opacity="0.08"/>
+
+  <rect x="200" y="40" width="500" height="100" rx="8" fill="#7c3aed" opacity="0.08"/>
+
+  <!-- ASCII art centrado y alineado -->
+  <text font-family="'Courier New', Courier, monospace" font-size="11" fill="url(#textgrad)" x="450" text-anchor="middle" opacity="0.9" xml:space="preserve">
+    <tspan x="450" dy="62">█████╗ ██╗   ██╗██████╗ ██╗███████╗    ██████╗  ██████╗ ████████╗</tspan>
+    <tspan x="450" dy="14">██╔══██╗██║   ██║██╔══██╗██║██╔════╝    ██╔══██╗██╔═══██╗╚══██╔══╝</tspan>
+    <tspan x="450" dy="14">███████║██║   ██║██████╔╝██║███████╗    ██████╔╝██║   ██║   ██║   </tspan>
+    <tspan x="450" dy="14">██╔══██║██║   ██║██╔══██╗██║╚════██║    ██╔══██╗██║   ██║   ██║   </tspan>
+    <tspan x="450" dy="14">██║  ██║╚██████╔╝██║  ██║██║███████║    ██████╔╝╚██████╔╝   ██║   </tspan>
+    <tspan x="450" dy="14">╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝    ╚═════╝  ╚═════╝   ╚═╝   </tspan>
+  </text>
+
+  <!-- Solo Discord Music Bot -->
+  <text font-family="'Courier New', Courier, monospace" font-size="12" fill="#c084fc" x="450" y="188" text-anchor="middle" opacity="0.7" letter-spacing="4">Discord Music Bot</text>
+
+  <rect width="898" height="198" fill="none" stroke="#7c3aed" stroke-width="1" rx="12" opacity="0.4" x="1" y="1"/>
+  <rect width="894" height="194" fill="none" stroke="#a855f7" stroke-width="0.5" rx="11" opacity="0.2" x="3" y="3"/>
+</svg>

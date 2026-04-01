@@ -8,7 +8,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord.Net-3.x-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Lavalink](https://img.shields.io/badge/Lavalink-audio-7c3aed?style=for-the-badge&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-deploy-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-deploy-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 <br/>

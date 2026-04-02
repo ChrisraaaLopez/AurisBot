@@ -17,7 +17,7 @@ namespace AurisBot.Services
         {
             // Aquí esperamos a que el servidor de Lavalink (el .jar) responda
             await _lavalink.WaitForReadyAsync();
-            Console.WriteLine("✅ [AudioService] Lavalink está listo para reproducir música.");
+            Console.WriteLine("AudioService Lavalink está listo para reproducir música.");
         }
     }
 }

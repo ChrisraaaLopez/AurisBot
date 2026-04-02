@@ -4,6 +4,10 @@
 
 <br/>
 
+**v1.0.0**
+
+<br/>
+
 ![.NET](https://img.shields.io/badge/.NET-8.0-7c3aed?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord.Net-3.x-5865F2?style=for-the-badge&logo=discord&logoColor=white)

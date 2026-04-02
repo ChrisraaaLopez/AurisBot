@@ -9,7 +9,11 @@ using Microsoft.Extensions.Logging;
 using AurisBot.Services;
 
 // Cargar Variables de Entorno
-Env.Load("..//env");
+var root = Directory.GetParent(AppContext.BaseDirectory);
+while (root != null && !File.Exists(Path.Combine(root.FullName, ".env")))
+    root = root.Parent;
+
+Env.Load(Path.Combine(root!.FullName, ".env"));
 
 // Contruir Host
 var host = Host.CreateDefaultBuilder(args)

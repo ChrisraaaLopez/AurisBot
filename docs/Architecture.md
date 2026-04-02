@@ -27,7 +27,7 @@ Documentación técnica completa del proyecto. Incluye decisiones de diseño, di
 | Motor de audio | Lavalink | Delega el procesamiento de audio a un nodo Java separado |
 | Extracción de audio | yt-dlp | Sin API key, sin límites, extrae audio directo de YouTube |
 | CI/CD | GitHub Actions | Build y validación automática en cada push |
-| Hosting | Railway (tier gratuito) | Soporte nativo para .NET, deploy desde GitHub |
+| Hosting | Oracle Cloud | Soporte nativo para .NET, deploy desde GitHub |
 
 ---
 
@@ -49,6 +49,7 @@ AurisBot/
 │       ├── aurisbot_banner.svg
 │       ├── Componentes_C4_Nvl2.md
 │       └── Secuencia_Comandos.md
+├── .env
 ├── .env.example
 ├── .gitignore
 ├── LICENSE

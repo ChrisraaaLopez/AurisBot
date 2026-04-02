@@ -31,3 +31,19 @@ var client = services.GetRequiredService<DiscordSocketClient>();
 var interactionService = services.GetRequiredService<InteractionService>();
 var guard = services.GetRequiredService<GuildGuardService>();
 var audio = services.GetRequiredService<AudioService>();
+
+// Logs
+client.Log += log =>
+{
+    Console.WriteLine($"[{log.Severity}] {log.Source}: {log.Message}");
+    return Task.CompletedTask;
+};
+
+// Eventos (Aqui se configuran los eventos para el cliente)
+
+/* Listo: Cuando el bot se conecta a Discord
+client.Ready += async () =>
+{
+Console.WriteLine($"Bot conectado: {client.CurrentUser.Username}"); */
+
+
